@@ -1,4 +1,4 @@
-# 🎓 StudyTrack AI – Student Study Habit Recommender
+# 🎓 Student Study Habit Recommender
 
 StudyTrack AI is a Python-based system that analyzes student study behavior and automatically generates personalized study habit recommendations to support better learning outcomes.
 
@@ -14,17 +14,19 @@ StudyTrack AI is a Python-based system that analyzes student study behavior and 
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- KMeans Clustering
-- Exploratory Data Analysis (EDA)
+  Programming Language: Python
+  Libraries: Pandas, NumPy, Scikit-learn
+  Techniques:
+     - Exploratory Data Analysis (EDA)
+     - Feature Scaling
+     - KMeans Clustering
+     - Rule-Based Recommendation System
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 Student-Study-Habit-Recommender/
 ├── recommendation_engine.py
@@ -40,4 +42,6 @@ Student-Study-Habit-Recommender/
 ## How to Run
 
 1. Run `Preprocess&Model.ipynb` to preprocess data and generate clusters
-2. Run the following command:
+2. Run the following command in Terminal:
+      python main.py
+   
