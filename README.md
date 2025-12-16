@@ -16,13 +16,13 @@ StudyTrack AI is a Python-based system that analyzes student study behavior and 
 
 ## 🛠️ Technologies Used
 
-  Programming Language: Python
-  Libraries: Pandas, NumPy, Scikit-learn
-  Techniques:
-     - Exploratory Data Analysis (EDA)
-     - Feature Scaling
-     - KMeans Clustering
-     - Rule-Based Recommendation System
+- **Programming Language:** Python  
+- **Libraries:** Pandas, Scikit-learn, Matplotlib  
+- **Techniques:**
+  - Exploratory Data Analysis (EDA)
+  - Feature Scaling
+  - KMeans Clustering
+  - Rule-Based Recommendation System
 
 ---
 
@@ -39,9 +39,12 @@ Student-Study-Habit-Recommender/
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
-1. Run `Preprocess&Model.ipynb` to preprocess data and generate clusters
-2. Run the following command in Terminal:
-      python main.py
+1. Run `Preprocess&Model.ipynb` to preprocess data and generate clusters.
+2. Run the following command in the terminal:
+   ```bash
+   python main.py
+3. Check the output file:
+   `output/student_recommendations.csv` 
    
