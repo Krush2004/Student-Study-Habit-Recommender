@@ -29,13 +29,14 @@ StudyTrack AI is a Python-based system that analyzes student study behavior and 
 ## 📂 Project Structure
 
 Student-Study-Habit-Recommender/
-  ├── recommendation_engine.py
-  ├── main.py
-  ├── Preprocess&Model.ipynb
-  ├── output/
-  │   ├── processed_for_recommendation.csv
-  │   └── student_recommendations.csv
-  └── README.md
+│
+├── recommendation_engine.py     # Rule-based recommendation logic
+├── main.py                      # Script to generate recommendations
+├── Preprocess&Model.ipynb       # Data preprocessing & clustering
+├── output/
+│   ├── processed_for_recommendation.csv
+│   └── student_recommendations.csv
+└── README.md
 
 ---
 
@@ -47,4 +48,3 @@ Student-Study-Habit-Recommender/
    python main.py
 3. Check the output file:
    `output/student_recommendations.csv` 
-   
